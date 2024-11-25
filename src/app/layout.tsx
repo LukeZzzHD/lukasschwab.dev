@@ -36,7 +36,7 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${rubik.className}`}>
-      <body className="min-h-screen bg-zinc-900">
+      <body className="min-h-screen overflow-hidden bg-zinc-900">
         <NavBar />
         <main className="flex-1">{children}</main>
       </body>

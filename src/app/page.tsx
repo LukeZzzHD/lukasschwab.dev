@@ -9,10 +9,10 @@ export default function HomePage() {
           I&apos;m Lukas
         </h1>
 
-        <p className="animate-slidein500 max-w-2xl text-lg font-light opacity-0 md:text-xl lg:text-2xl">
+        <p className="max-w-2xl animate-slidein500 text-lg font-light opacity-0 md:text-xl lg:text-2xl">
           Full-stack developer based in Bern, Switzerland.{" "}
-          <br className="hidden md:block" />I love crafting digital solutions
-          that solve real-world problems.{""}
+          <br className="hidden md:block" />
+          I love crafting digital solutions that solve real-world problems.{" "}
           <br className="hidden md:block" />
           Building things isn&apos;t just my job — it&apos;s my passion.
         </p>
@@ -22,7 +22,7 @@ export default function HomePage() {
             disabled
             variant="outline"
             size="lg"
-            className="text-primary group flex items-center gap-2"
+            className="group flex items-center gap-2 text-primary"
           >
             Download CV
             <Download className="h-5 w-5 transition-transform group-hover:animate-bounce" />
