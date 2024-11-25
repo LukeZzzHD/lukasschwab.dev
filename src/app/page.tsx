@@ -10,15 +10,16 @@ export default function HomePage() {
         </h1>
 
         <p className="animate-slidein500 max-w-2xl text-lg font-light opacity-0 md:text-xl lg:text-2xl">
-          Full-stack developer based in Bern, Switzerland.
-          <br className="hidden md:block" />
-          I love crafting digital solutions that solve real-world problems.
+          Full-stack developer based in Bern, Switzerland.{" "}
+          <br className="hidden md:block" />I love crafting digital solutions
+          that solve real-world problems.{""}
           <br className="hidden md:block" />
           Building things isn&apos;t just my job — it&apos;s my passion.
         </p>
 
         <div className="animate-slidein700 pt-6 opacity-0">
           <Button
+            disabled
             variant="outline"
             size="lg"
             className="text-primary group flex items-center gap-2"
